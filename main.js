@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             gameLinks.forEach(link => {
                 let gameName = link.querySelector('p').innerText.toLowerCase();
                 if (gameName.includes(searchTerm)) {
-                    link.style.display = 'block';
+                    link.style.display = 'flex';
                     foundResults = true;
                 } else {
                     link.style.display = 'none';
