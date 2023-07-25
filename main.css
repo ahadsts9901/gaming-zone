@@ -151,9 +151,12 @@ form {
 .container {
     display: flex;
     justify-content: center;
+    align-items: start;
     flex-wrap: wrap;
     gap: 1em;
     padding: 1em;
+    width: 100%;
+    height: 100%;
 }
 
 .round {
@@ -161,7 +164,7 @@ form {
     flex-direction: column;
     /* justify-content: center; */
     justify-content: space-between;
-    align-items: center;
+    align-items: center!important;
     border: none;
     background-color: #f9f9f9;
     /* background-color: #dadada; */
@@ -185,6 +188,12 @@ form {
     text-align: center;
     font-size: 0.8em;
     color: #212121;
+}
+
+.no-result {
+    display: none;
+    position: fixed;
+    top: 50%;
 }
 
 
