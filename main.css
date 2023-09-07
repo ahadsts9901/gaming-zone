@@ -353,3 +353,73 @@ form {
     height: 3.8em;
     margin-top: 0.8em;
 }
+
+.ms-word{
+    background-image: url(./assets/ms\ word.png);
+    width: 6em;
+    height: 6em;
+}
+
+.ms-excel{
+    background-image: url(./assets/ms\ excel.png);
+    width: 3.6em;
+    height: 3.6em;
+    margin-top: 0.9em;
+}
+
+.blog{
+    background-image: url(./assets/blog\ app.png);
+    width: 7.5em;
+    height: 7.5em;
+}
+
+.memory-game{
+    background-image: url(./assets/memory\ game.png);
+    width: 4.2em;
+    height: 4.2em;
+    margin-top: 0.7em;
+}
+
+.bubble-game{
+    background-image: url(./assets/number\ game.jpg);
+    width: 4.1em;
+    height: 4.1em;
+    margin-top: 0.7em;
+}
+
+.floppy-bird{
+    background-image: url(./assets/floppybird.png);
+    width: 4.5em;
+    height: 4.5em;
+    margin-top: 0.5em;
+}
+
+.typing-game{
+    background-image: url(./assets/typing.jpg);
+    background-size: cover;
+    width: 4.5em;
+    height: 4.5em;
+    margin-top: 0.5em;
+}
+
+.toss{
+    background-image: url(./assets/toss.jpg);
+    width: 4.5em;
+    height: 4.5em;
+    margin-top: 0.8em;
+}
+
+.counter{
+    background-image: url(./assets/counter.png);
+    background-size: cover;
+    width: 4.5em;
+    height: 4.5em;
+    margin-top: 0.7em;
+}
+
+.react-weather{
+    background-image: url(./assets/weather\ 2.jpg);
+    width: 4.5em;
+    height: 4.5em;
+    margin-top: 0.5em;
+}
